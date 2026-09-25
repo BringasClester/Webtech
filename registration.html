@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here</title>
+</head>
+    <body>
+        <h1>Student Registration Form</h1>
+            <form>
+                <label>Full Name:</label><br>
+                <input type="text" placeholder="Enter your full name" required>
+                <br><br>
+
+                <label>Student ID:</label><br>
+                <input type="text" placeholder="Enter your student ID" required>
+                <br><br>
+
+                <label>Email:</label><br>
+                <input type="email" placeholder="Enter your email" required>
+                <br><br>
+
+                <label>Password:</label><br>
+                <input type="password" placeholder="Enter your password" minlength="8" required>
+                <br><br>
+
+                <label>Birthday:</label><br>
+                <input type="date" required>
+                <br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <br><br>
+
+                <label>Program:</label><br>
+                <select required>
+                <option>Select Program</option>
+                <option>BSIT</option>
+                <option>BSCS</option>
+                <option>BSBA</option>
+                </select>
+                <br><br>
+
+                <label>Hobbies:</label><br>
+                <input type="checkbox"> Gaming
+                <input type="checkbox"> Reading
+                <input type="checkbox"> Sports
+                <input type="checkbox"> Music
+                <br><br>
+
+                <label>Address:</label><br>
+                <textarea placeholder="Enter your address" maxlength="200" required></textarea>
+                <br><br>
+
+                <label>Comments:</label><br>
+                <textarea placeholder="Enter your comments" maxlength="300"></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+    </body>
+</html> 
