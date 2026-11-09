@@ -1,0 +1,2252 @@
+commit f87da917923b3ecc18ca2da6a9c784f4b8f8246a
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-10-14 01:01:10 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-10-14 01:01:10 +0000
+
+    portfolio
+
+diff --git a/FinalLab.html b/FinalLab.html
+index 6900149..e9a0f6d 100644
+--- a/FinalLab.html
++++ b/FinalLab.html
+@@ -25,10 +25,10 @@
+     <section id="welcome-section">
+       <img src="image.png" alt="Photo of Ian" class="profile-pic">
+ 
+-      <h2>What's up! I'm Ian Clester</h2>
++      <h2>Annyeong! I'm Ian Clester</h2>
+ 
+       <p>
+-        I'm a Web Developer and a student who enjoys creating websites
++        I'm a Student-Athlete and I also enjoys creating graphic designs
+         and learning new things about technology.
+       </p>
+     </section>
+diff --git a/portfolio/FinalLab.html b/portfolio/FinalLab.html
+new file mode 100644
+index 0000000..e9a0f6d
+--- /dev/null
++++ b/portfolio/FinalLab.html
+@@ -0,0 +1,57 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>My Personal Web Portfolio</title>
++  <link rel="stylesheet" href="styles.css">
++</head>
++<body>
++
++  <header>
++    <h1>My Personal Web Portfolio</h1>
++
++    <nav id="navbar">
++      <a href="index.html">Home</a>
++      <a href="about.html">About</a>
++      <a href="education.html">Education</a>
++      <a href="skills.html">Skills</a>
++      <a href="contact.html">Contact</a>
++    </nav>
++  </header>
++
++  <main>
++
++    <section id="welcome-section">
++      <img src="image.png" alt="Photo of Ian" class="profile-pic">
++
++      <h2>Annyeong! I'm Ian Clester</h2>
++
++      <p>
++        I'm a Student-Athlete and I also enjoys creating graphic designs
++        and learning new things about technology.
++      </p>
++    </section>
++
++    <section id="github">
++      <h2>My GitHub</h2>
++
++      <article class="github-tile">
++        <p>
++          Visit my GitHub profile to see my projects and repositories.
++        </p>
++
++        <a href="https://github.com/ClesterIan" target="_blank">
++          My GitHub Profile
++        </a>
++      </article>
++    </section>
++
++  </main>
++
++  <footer>
++    <p>&copy; 2026 Ian Clester. My Personal Web Portfolio.</p>
++  </footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/portfolio/about.html b/portfolio/about.html
+new file mode 100644
+index 0000000..61cb0bf
+--- /dev/null
++++ b/portfolio/about.html
+@@ -0,0 +1,87 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>About Me - Ian Clester</title>
++    <link rel="stylesheet" href="styles.css">
++</head>
++
++<body>
++
++<header>
++    <h1>About Me</h1>
++
++    <nav>
++        <a href="index.html">HOME</a>
++        <a href="about.html">ABOUT</a>
++        <a href="education.html">EDUCATION</a>
++        <a href="skills.html">SKILLS</a>
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</header>
++
++<main>
++
++    <section>
++        <h2>Soooo</h2>
++
++        <article class="about-box">
++            <img src="Ian.jpg" alt="Ian Clester" class="about-image">
++
++            <p>
++                My name is Ian Clester. I am a student and a student-athlete
++                from Baguio City. I am currently studying Information
++                Technology with a focus on Web Development.
++            </p>
++
++            <p>
++                Aside from studying, I have been involved in Taekwondo
++                for many years. Sports has been an important part of my
++                life and has helped me develop discipline and determination.
++            </p>
++        </article>
++    </section>
++
++    <section>
++        <h2>My Interests</h2>
++
++        <ul>
++            <li>Web Development</li>
++            <li>Graphic Design</li>
++            <li>Taekwondo</li>
++            <li>Technology</li>
++            <li>Creating Websites</li>
++        </ul>
++    </section>
++
++    <section>
++        <h2>Things I Want to Improve</h2>
++
++        <ol>
++            <li>Improve my web development skills</li>
++            <li>Improve my graphic design skills</li>
++            <li>Learn more about technology</li>
++            <li>Continue growing as a student-athlete</li>
++            <li>Gain more experience in the IT field</li>
++        </ol>
++    </section>
++
++    <section>
++        <h2>My Student-Athlete Journey</h2>
++
++        <p>
++            Balancing academics and sports can be challenging, but it has
++            helped me become more responsible with my time. I continue
++            to learn from both my studies and my experiences in Taekwondo.
++        </p>
++    </section>
++
++</main>
++
++<footer>
++    <p>&copy; 2026 Ian Clester. All Rights Reserved.</p>
++</footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/portfolio/contact.html b/portfolio/contact.html
+new file mode 100644
+index 0000000..3f3197d
+--- /dev/null
++++ b/portfolio/contact.html
+@@ -0,0 +1,75 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Contact Me - Ian Clester</title>
++    <link rel="stylesheet" href="styles.css">
++</head>
++
++<body>
++
++<header>
++    <h1>Contact Me</h1>
++
++    <nav>
++        <a href="index.html">HOME</a>
++        <a href="about.html">ABOUT</a>
++        <a href="education.html">EDUCATION</a>
++        <a href="skills.html">SKILLS</a>
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</header>
++
++<main>
++
++    <section>
++        <h2>Hit me up!!!</h2>
++
++        <p>
++            If you want to contact me, you can use the form below.
++            Feel free to leave a message.
++        </p>
++
++        <form>
++
++            <label for="name">Name:</label>
++            <input type="text" id="name" name="name" placeholder="Enter your name">
++
++            <label for="email">Email:</label>
++            <input type="email" id="email" name="email" placeholder="Enter your email">
++
++            <label for="subject">Subject:</label>
++            <input type="text" id="subject" name="subject" placeholder="Enter subject">
++
++            <label for="message">Message:</label>
++            <textarea id="message" name="message" rows="6" placeholder="Write your message"></textarea>
++
++            <button type="submit">Send Message</button>
++
++        </form>
++    </section>
++
++    <section>
++        <h2>My Contact</h2>
++
++        <article class="contact-box">
++            <p><strong>Name:</strong> Ian Clester</p>
++            <p><strong>Location:</strong> Baguio City</p>
++            <p>
++                <strong>GitHub:</strong>
++                <a href="https://github.com/ClesterIan" target="_blank">
++                    github.com/ClesterIan
++                </a>
++            </p>
++        </article>
++    </section>
++
++</main>
++
++<footer>
++    <p>&copy; 2026 Ian Clester. All Rights Reserved.</p>
++</footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/portfolio/education.html b/portfolio/education.html
+new file mode 100644
+index 0000000..6cbd828
+--- /dev/null
++++ b/portfolio/education.html
+@@ -0,0 +1,93 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Education - Ian Clester</title>
++    <link rel="stylesheet" href="styles.css">
++</head>
++
++<body>
++
++<header>
++    <h1>My Education</h1>
++
++    <nav>
++        <a href="index.html">HOME</a>
++        <a href="about.html">ABOUT</a>
++        <a href="education.html">EDUCATION</a>
++        <a href="skills.html">SKILLS</a>
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</header>
++
++<main>
++
++    <section>
++        <h2>Educational Background</h2>
++
++        <img src="UC.jpg" alt="University of the Cordilleras" class="content-image">
++
++        <table>
++            <tr>
++                <th>Level</th>
++                <th>School</th>
++                <th>Program</th>
++            </tr>
++
++            <tr>
++                <td>College</td>
++                <td>University of the Cordilleras</td>
++                <td>BS Information Technology - Web Development</td>
++            </tr>
++
++            <tr>
++                <td>High School</td>
++                <td>Baguio City National High School</td>
++                <td>Secondary Education</td>
++            </tr>
++        </table>
++    </section>
++
++    <section>
++        <h2>What I Learn</h2>
++
++        <article>
++            <p>
++                As an IT student, I learn about web development,
++                programming, information technology, and other
++                technologies used in creating digital solutions.
++            </p>
++        </article>
++    </section>
++
++    <section>
++        <h2>Useful Links</h2>
++
++        <p>
++            <a href="https://www.uc-bcf.edu.ph/" target="_blank">
++                University of the Cordilleras
++            </a>
++        </p>
++
++        <p>
++            <a href="https://github.com/ClesterIan" target="_blank">
++                My GitHub
++            </a>
++        </p>
++
++        <p>
++            <a href="https://www.youtube.com/" target="_blank">
++                YouTube
++            </a>
++        </p>
++    </section>
++
++</main>
++
++<footer>
++    <p>&copy; 2026 Ian Clester. All Rights Reserved.</p>
++</footer>
++
++</body>
++</html>
+diff --git a/portfolio/index.html b/portfolio/index.html
+new file mode 100644
+index 0000000..108ad20
+--- /dev/null
++++ b/portfolio/index.html
+@@ -0,0 +1,23 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>PERSONAL PAGE</title>
++</head>
++<body>
++    <h1>MY PERSONAL PAGE</h1>
++    <hr> 
++    <h2>Ian Clester Bringas</h2>
++        <p>Bachelor of Science in Information Technology - Web Technology</p> 
++    <hr>
++    <h2>About Me</h2> 
++        <p> Hello! My name is Ian Clester Bringas. I am an IT student who is interested in web development and graphic design. I am also a student-athlete and have been practicing Taekwondo for many years. </p>
++        <p> I enjoy being creative, learning new things, and improving my skills. I believe that my experiences in sports and technology help me become more disciplined, confident, and hardworking. </p> 
++    <hr>
++    <h2>My Hobbies</h2> 
++        <p> My three hobbies are playing Taekwondo, creating graphic designs, and listening to music. These activities help me stay active, creative, and relaxed. </p> 
++        <p> I hope to improve my skills in Information Technology and create useful and creative websites in the future. </p> 
++        <p> Thank you for visiting my personal page! </p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/portfolio/skills.html b/portfolio/skills.html
+new file mode 100644
+index 0000000..049eaf1
+--- /dev/null
++++ b/portfolio/skills.html
+@@ -0,0 +1,87 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Skills - Ian Clester</title>
++    <link rel="stylesheet" href="styles.css">
++</head>
++
++<body>
++
++<header>
++    <h1>My Skills</h1>
++
++    <nav>
++        <a href="index.html">HOME</a>
++        <a href="about.html">ABOUT</a>
++        <a href="education.html">EDUCATION</a>
++        <a href="skills.html">SKILLS</a>
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</header>
++
++<main>
++
++    <section>
++        <h2>Technical Skills</h2>
++
++        <article class="skill-box">
++            <h3>Web Development</h3>
++            <p>
++                I have experience creating basic websites using HTML and CSS.
++            </p>
++        </article>
++
++        <article class="skill-box">
++            <h3>Graphic Design</h3>
++            <p>
++                Graphic and digital design is one of my main interests.
++                I create posters, logos, and other digital designs.
++            </p>
++        </article>
++
++        <article class="skill-box">
++            <h3>Other Skills</h3>
++
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>Canva</li>
++                <li>Adobe applications</li>
++                <li>Microsoft Word</li>
++            </ul>
++        </article>
++    </section>
++
++    <section>
++        <h2>Student-Athlete Skills</h2>
++
++        <article>
++            <p>
++                My experience in Taekwondo has also helped me develop
++                discipline, focus, teamwork, and commitment.
++            </p>
++        </article>
++    </section>
++
++    <section>
++        <h2>Sport Video</h2>
++
++        <iframe
++            width="560"
++            height="315"
++            src="https"
++            title="Performance"
++            allowfullscreen>
++        </iframe>
++    </section>
++
++</main>
++
++<footer>
++    <p>&copy; 2026 Ian Clester. All Rights Reserved.</p>
++</footer>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit b3226353c3c29bce567b27f9a3e082312bbf8e12
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-10-12 01:37:05 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-10-12 01:37:05 +0000
+
+    emmet done
+
+diff --git a/emmet-folder/image.png b/emmet-folder/image.png
+new file mode 100644
+index 0000000..0fc0fdb
+Binary files /dev/null and b/emmet-folder/image.png differ
+diff --git a/emmet-folder/part12.html b/emmet-folder/part12.html
+new file mode 100644
+index 0000000..9f2af1f
+--- /dev/null
++++ b/emmet-folder/part12.html
+@@ -0,0 +1,194 @@
++
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Portfolio</title>
++
++    <style>
++        body {
++            font-family: Arial, sans-serif;
++            margin: 0;
++            background-color: #e5e5e5;
++            color: #222222;
++        }
++
++        header {
++            background-color: #303030;
++            color: white;
++            text-align: center;
++            padding: 30px;
++        }
++
++        nav {
++            background-color: #181818;
++            text-align: center;
++            padding: 15px;
++        }
++
++        nav a {
++            color: #e0e0e0;
++            text-decoration: none;
++            margin: 10px;
++        }
++
++        nav a:hover {
++            color: #999999;
++        }
++
++        section {
++            padding: 25px;
++            margin: 20px;
++            background-color: #f5f5f5;
++            border-radius: 8px;
++        }
++
++        img {
++            width: 150px;
++            height: 150px;
++            border-radius: 50%;
++            object-fit: cover;
++            border: 3px solid #555555;
++        }
++
++        .project {
++            background-color: #dedede;
++            padding: 15px;
++            margin: 10px 0;
++            border-radius: 5px;
++            border-left: 4px solid #444444;
++        }
++
++        .project a {
++            color: #222222;
++        }
++
++        input, textarea {
++            width: 95%;
++            padding: 10px;
++            margin: 8px 0;
++            border: 1px solid #999999;
++            border-radius: 4px;
++            font-family: Arial, sans-serif;
++        }
++
++        button {
++            background-color: #303030;
++            color: white;
++            padding: 10px 20px;
++            border: none;
++            border-radius: 4px;
++            cursor: pointer;
++        }
++
++        button:hover {
++            background-color: #555555;
++        }
++
++        footer {
++            background-color: #181818;
++            color: white;
++            text-align: center;
++            padding: 15px;
++        }
++    </style>
++</head>
++
++<body>
++
++    <header id="home">
++        <h1>Ian Clester Bringas</h1>
++        <p>Annyeong! I am a BSIT Web Technology student and a Taekwondo student-athlete.</p>
++    </header>
++
++    <nav>
++        <a href="#home">Home</a>
++        <a href="#about">About</a>
++        <a href="#skills">Skills</a>
++        <a href="#projects">Projects</a>
++        <a href="#contact">Contact</a>
++    </nav>
++
++    <section id="about">
++        <h2>About Me</h2>
++
++        <img src="image.png" alt="My Profile Picture">
++
++        <p>
++            Hi! My name is Ian Clester Bringas. I am a BSIT student
++            majoring in Web Technology at the University of the Cordilleras.
++            I am also a Taekwondo student-athlete. I enjoy graphic design
++            and learning new things about technology.
++        </p>
++    </section>
++
++    <section id="skills">
++        <h2>My Skills</h2>
++
++        <ul>
++            <li>HTML</li>
++            <li>CSS</li>
++            <li>Graphic Design</li>
++            <li>Canva</li>
++            <li>Microsoft Word</li>
++            <li>Teamwork</li>
++        </ul>
++    </section>
++ 
++    <section id="projects">
++        <h2>My Projects</h2>
++
++        <div class="project">
++            <h3>Personal Portfolio</h3>
++            <p>A simple website that introduces myself and my skills.</p>
++            <a href="#about">View Project</a>
++        </div>
++
++        <div class="project">
++            <h3>Poster Design</h3>
++            <p>A poster design created using Canva.</p>
++            <a href="https://www.canva.com/" target="_blank">View Canva</a>
++        </div>
++
++        <div class="project">
++            <h3>HTML Activity</h3>
++            <p>A basic webpage created using HTML and CSS.</p>
++            <a href="#skills">View Skills</a>
++        </div>
++    </section>
++
++    <section id="contact">
++        <h2>Contact Me</h2>
++
++        <form>
++            <label for="name">Name:</label><br>
++            <input type="text" id="name" name="name"
++                   placeholder="Enter your name" required>
++            <br>
++
++            <label for="email">Email:</label><br>
++            <input type="email" id="email" name="email"
++                   placeholder="Enter your email" required>
++            <br>
++
++            <label for="subject">Subject:</label><br>
++            <input type="text" id="subject" name="subject"
++                   placeholder="Enter the subject" required>
++            <br>
++
++            <label for="message">Message:</label><br>
++            <textarea id="message" name="message" rows="5"
++                      placeholder="Write your message" required></textarea>
++            <br>
++
++            <button type="submit">Submit</button>
++        </form>
++    </section>
++
++    <footer>
++        <p>&copy; 2026 - Ian Clester Bringas</p>
++    </footer>
++
++</body>
++</html>
+diff --git a/emmet-folder/part13.html b/emmet-folder/part13.html
+new file mode 100644
+index 0000000..2f0ca6a
+--- /dev/null
++++ b/emmet-folder/part13.html
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Challenge</title>
++</head>
++<body>
++    " header>h1{My Portfolio}+nav>ul>li*5>a "
++
++    <header>
++        <h1>My Portfolio</h1>
++        <nav>
++            <ul>
++                <li><a href=""></a></li>
++                <li><a href=""></a></li>
++                <li><a href=""></a></li>
++                <li><a href=""></a></li>
++                <li><a href=""></a></li>
++            </ul>
++        </nav>
++    </header>
++</body>
++</html>
+
+commit f109d3890f7239c112de6847262a574d5d05c3f7
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-10-09 01:49:07 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-10-09 01:49:07 +0000
+
+    emmet friday
+
+diff --git a/04-form.html b/emmet-folder/04-form.html
+similarity index 100%
+rename from 04-form.html
+rename to emmet-folder/04-form.html
+diff --git a/emmet-folder/05-semantic.html b/emmet-folder/05-semantic.html
+new file mode 100644
+index 0000000..6163cb9
+--- /dev/null
++++ b/emmet-folder/05-semantic.html
+@@ -0,0 +1,33 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Challenge</title>
++</head>
++<body>
++    <header>
++        <h1></h1>
++    </header>
++
++    <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++    </nav>
++
++    <main>
++        <section>
++            <article></article>
++        </section>
++    </main>
++
++    <footer>
++        <p></p>
++    </footer>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-folder/form_challenge.html b/emmet-folder/form_challenge.html
+new file mode 100644
+index 0000000..2bce7d7
+--- /dev/null
++++ b/emmet-folder/form_challenge.html
+@@ -0,0 +1,75 @@
++
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Student Registration Form</title>
++</head>
++<body>
++
++    <h1>Student Registration Form</h1>
++
++    <form action="#" method="post">
++
++        <label for="studentID">Student ID:</label>
++        <input type="text" id="studentID" name="studentID" required>
++        <br><br>
++
++        <label for="fullName">Full Name:</label>
++        <input type="text" id="fullName" name="fullName" required>
++        <br><br>
++
++        <label for="email">Email:</label>
++        <input type="email" id="email" name="email" required>
++        <br><br>
++
++        <label for="password">Password:</label>
++        <input type="password" id="password" name="password" required>
++        <br><br>
++
++        <label>Gender:</label>
++        <input type="radio" id="male" name="gender" value="Male" required>
++        <label for="male">Male</label>
++
++        <input type="radio" id="female" name="gender" value="Female">
++        <label for="female">Female</label>
++
++        <input type="radio" id="other" name="gender" value="Other">
++        <label for="other">Other</label>
++        <br><br>
++
++        <label for="course">Course:</label>
++        <select id="course" name="course" required>
++            <option value="">Select Course</option>
++            <option value="BSIT">BS Information Technology</option>
++            <option value="BSCS">BS Computer Science</option>
++            <option value="BSIS">BS Information Systems</option>
++            <option value="BSBA">BS Business Administration</option>
++        </select>
++        <br><br>
++
++        <label>Hobbies:</label>
++        <input type="checkbox" id="reading" name="hobbies[]" value="Reading">
++        <label for="reading">Reading</label>
++
++        <input type="checkbox" id="gaming" name="hobbies[]" value="Gaming">
++        <label for="gaming">Gaming</label>
++
++        <input type="checkbox" id="sports" name="hobbies[]" value="Sports">
++        <label for="sports">Sports</label>
++
++        <input type="checkbox" id="music" name="hobbies[]" value="Music">
++        <label for="music">Music</label>
++        <br><br>
++
++        <label for="address">Address:</label>
++        <textarea id="address" name="address" rows="4" cols="30" required></textarea>
++        <br><br>
++
++        <button type="submit">Submit</button>
++
++    </form>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-folder/part11.html b/emmet-folder/part11.html
+new file mode 100644
+index 0000000..e69de29
+
+commit 577aa35e6598d01396d09e28ed2eb06a23a8ef13
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-10-07 01:51:56 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-10-07 01:51:56 +0000
+
+    emmet
+
+diff --git a/part7.html b/emmet-folder/part7.html
+similarity index 100%
+rename from part7.html
+rename to emmet-folder/part7.html
+diff --git a/part8.html b/emmet-folder/part8.html
+similarity index 100%
+rename from part8.html
+rename to emmet-folder/part8.html
+
+commit a1135ad26a5203f9c2d1a6ad8eb8949997d42fef
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-10-07 01:42:40 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-10-07 01:42:40 +0000
+
+    emmet
+
+diff --git a/04-form.html b/04-form.html
+new file mode 100644
+index 0000000..642ff61
+--- /dev/null
++++ b/04-form.html
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <input type="text" name="" id="">
++
++    <input type="email" name="" id="">
++
++    <input type="password" name="" id="">
++
++    <input type="checkbox" name="" id="">
++
++    <input type="radio" name="" id="">
++
++    <input type="submit" value="">
++
++
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-folder/03-navigation.html b/emmet-folder/03-navigation.html
+new file mode 100644
+index 0000000..c3e0a48
+--- /dev/null
++++ b/emmet-folder/03-navigation.html
+@@ -0,0 +1,33 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>
++    </ul>
++
++    <ul>
++        <li>Menu 1</li>
++        <li>Menu 2</li>
++        <li>Menu 3</li>
++        <li>Menu 4</li>
++        <li>Menu 5</li>
++    </ul>
++
++        <ul>
++        <li>Home</li>
++        <li>About</li>
++        <li>Services</li>
++        <li>Projects</li>
++        <li>Contact</li>
++    </ul>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-folder/part5.html b/emmet-folder/part5.html
+new file mode 100644
+index 0000000..15550e7
+--- /dev/null
++++ b/emmet-folder/part5.html
+@@ -0,0 +1,17 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>Web Technologies</h1>
++
++    <p>Welcome to my Webpage.</p>
++
++    <h1>My Web Development Journey</h1>
++    <p>I am learning HTML, CSS, Java Script and Web Development.</p>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/part7.html b/part7.html
+new file mode 100644
+index 0000000..5b41b09
+--- /dev/null
++++ b/part7.html
+@@ -0,0 +1,39 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li><a href="">Menu 1</a></li>
++            <li><a href="">Menu 2</a></li>
++            <li><a href="">Menu 3</a></li>
++            <li><a href="">Menu 4</a></li>
++            <li><a href="">Menu 5</a></li>
++        </ul>
++    </nav>
++
++        <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Portfolio</a></li>
++            <li><a href="">Services</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/part8.html b/part8.html
+new file mode 100644
+index 0000000..0312db6
+--- /dev/null
++++ b/part8.html
+@@ -0,0 +1,17 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <input type="text">
++    <input type="text" placeholder="Enter your name">
++    <input type="email" placeholder="Enter your email">
++    <img src="images/profile.jpg" alt="Profile Photo">
++    <a href="https://www.google.com">Google</a>
++
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit c9fcc9620ce227944f48a2f05e2780a7be95e4e0
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-10-05 01:37:41 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-10-05 01:37:41 +0000
+
+    act act acty
+
+diff --git a/emmet-folder/01-basic.html b/emmet-folder/01-basic.html
+new file mode 100644
+index 0000000..9789645
+--- /dev/null
++++ b/emmet-folder/01-basic.html
+@@ -0,0 +1,18 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document Title</title>
++</head>
++<body>
++   <h1></h1>
++   <h2></h2>
++   <p></p>
++   <div></div>
++   <header></header>
++   <nav></nav>
++   <main></main>
++   <footer></footer>    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-folder/02-classes-ids.html b/emmet-folder/02-classes-ids.html
+new file mode 100644
+index 0000000..2669442
+--- /dev/null
++++ b/emmet-folder/02-classes-ids.html
+@@ -0,0 +1,21 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p class="introduction"></p>
++    <div id="container"></div>
++    <div class="card featured"></div>
++    <sextion id="about" class="content-section"></sextion>
++
++    <h1 class=""></h1>
++    <nav class="main-nav"></nav>
++    <main class="content"></main>
++    <section class="about"></section>
++    <footer class="site-footer"></footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-folder/index.html b/emmet-folder/index.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/emmet-folder/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-folder/part4.html b/emmet-folder/part4.html
+new file mode 100644
+index 0000000..8df2d9f
+--- /dev/null
++++ b/emmet-folder/part4.html
+@@ -0,0 +1,54 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=ul>li, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li></li>
++    </ul>
++
++    <nav>
++        <ul>
++            <li></li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++        </ul>
++    </nav>
++
++    <h1></h1>
++    <p></p>
++
++    <h1></h1>
++    <h2></h2>
++    <p></p>
++    <p></p>
++
++    <l></l>
++    <l></l>
++    <l></l>
++    <l></l>
++    <l></l>
++
++    <div></div>
++    <div></div>
++    <div></div>
++
++    <p></p>
++    <p></p>
++    <p></p>
++    <p></p>
++    <p></p>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit e3edfd429d3d42046384a3bce36e445dcb9ee9ba
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-09-30 01:22:15 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-09-30 01:22:15 +0000
+
+    Html Acts
+
+diff --git a/FinalLab.html b/FinalLab.html
+index bbe0861..6900149 100644
+--- a/FinalLab.html
++++ b/FinalLab.html
+@@ -23,7 +23,7 @@
+   <main>
+ 
+     <section id="welcome-section">
+-      <img src="Ian.jpg" alt="Photo of Ian" class="profile-pic">
++      <img src="image.png" alt="Photo of Ian" class="profile-pic">
+ 
+       <h2>What's up! I'm Ian Clester</h2>
+ 
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..61cb0bf
+--- /dev/null
++++ b/about.html
+@@ -0,0 +1,87 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>About Me - Ian Clester</title>
++    <link rel="stylesheet" href="styles.css">
++</head>
++
++<body>
++
++<header>
++    <h1>About Me</h1>
++
++    <nav>
++        <a href="index.html">HOME</a>
++        <a href="about.html">ABOUT</a>
++        <a href="education.html">EDUCATION</a>
++        <a href="skills.html">SKILLS</a>
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</header>
++
++<main>
++
++    <section>
++        <h2>Soooo</h2>
++
++        <article class="about-box">
++            <img src="Ian.jpg" alt="Ian Clester" class="about-image">
++
++            <p>
++                My name is Ian Clester. I am a student and a student-athlete
++                from Baguio City. I am currently studying Information
++                Technology with a focus on Web Development.
++            </p>
++
++            <p>
++                Aside from studying, I have been involved in Taekwondo
++                for many years. Sports has been an important part of my
++                life and has helped me develop discipline and determination.
++            </p>
++        </article>
++    </section>
++
++    <section>
++        <h2>My Interests</h2>
++
++        <ul>
++            <li>Web Development</li>
++            <li>Graphic Design</li>
++            <li>Taekwondo</li>
++            <li>Technology</li>
++            <li>Creating Websites</li>
++        </ul>
++    </section>
++
++    <section>
++        <h2>Things I Want to Improve</h2>
++
++        <ol>
++            <li>Improve my web development skills</li>
++            <li>Improve my graphic design skills</li>
++            <li>Learn more about technology</li>
++            <li>Continue growing as a student-athlete</li>
++            <li>Gain more experience in the IT field</li>
++        </ol>
++    </section>
++
++    <section>
++        <h2>My Student-Athlete Journey</h2>
++
++        <p>
++            Balancing academics and sports can be challenging, but it has
++            helped me become more responsible with my time. I continue
++            to learn from both my studies and my experiences in Taekwondo.
++        </p>
++    </section>
++
++</main>
++
++<footer>
++    <p>&copy; 2026 Ian Clester. All Rights Reserved.</p>
++</footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..3f3197d
+--- /dev/null
++++ b/contact.html
+@@ -0,0 +1,75 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Contact Me - Ian Clester</title>
++    <link rel="stylesheet" href="styles.css">
++</head>
++
++<body>
++
++<header>
++    <h1>Contact Me</h1>
++
++    <nav>
++        <a href="index.html">HOME</a>
++        <a href="about.html">ABOUT</a>
++        <a href="education.html">EDUCATION</a>
++        <a href="skills.html">SKILLS</a>
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</header>
++
++<main>
++
++    <section>
++        <h2>Hit me up!!!</h2>
++
++        <p>
++            If you want to contact me, you can use the form below.
++            Feel free to leave a message.
++        </p>
++
++        <form>
++
++            <label for="name">Name:</label>
++            <input type="text" id="name" name="name" placeholder="Enter your name">
++
++            <label for="email">Email:</label>
++            <input type="email" id="email" name="email" placeholder="Enter your email">
++
++            <label for="subject">Subject:</label>
++            <input type="text" id="subject" name="subject" placeholder="Enter subject">
++
++            <label for="message">Message:</label>
++            <textarea id="message" name="message" rows="6" placeholder="Write your message"></textarea>
++
++            <button type="submit">Send Message</button>
++
++        </form>
++    </section>
++
++    <section>
++        <h2>My Contact</h2>
++
++        <article class="contact-box">
++            <p><strong>Name:</strong> Ian Clester</p>
++            <p><strong>Location:</strong> Baguio City</p>
++            <p>
++                <strong>GitHub:</strong>
++                <a href="https://github.com/ClesterIan" target="_blank">
++                    github.com/ClesterIan
++                </a>
++            </p>
++        </article>
++    </section>
++
++</main>
++
++<footer>
++    <p>&copy; 2026 Ian Clester. All Rights Reserved.</p>
++</footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/education.html b/education.html
+new file mode 100644
+index 0000000..6cbd828
+--- /dev/null
++++ b/education.html
+@@ -0,0 +1,93 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Education - Ian Clester</title>
++    <link rel="stylesheet" href="styles.css">
++</head>
++
++<body>
++
++<header>
++    <h1>My Education</h1>
++
++    <nav>
++        <a href="index.html">HOME</a>
++        <a href="about.html">ABOUT</a>
++        <a href="education.html">EDUCATION</a>
++        <a href="skills.html">SKILLS</a>
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</header>
++
++<main>
++
++    <section>
++        <h2>Educational Background</h2>
++
++        <img src="UC.jpg" alt="University of the Cordilleras" class="content-image">
++
++        <table>
++            <tr>
++                <th>Level</th>
++                <th>School</th>
++                <th>Program</th>
++            </tr>
++
++            <tr>
++                <td>College</td>
++                <td>University of the Cordilleras</td>
++                <td>BS Information Technology - Web Development</td>
++            </tr>
++
++            <tr>
++                <td>High School</td>
++                <td>Baguio City National High School</td>
++                <td>Secondary Education</td>
++            </tr>
++        </table>
++    </section>
++
++    <section>
++        <h2>What I Learn</h2>
++
++        <article>
++            <p>
++                As an IT student, I learn about web development,
++                programming, information technology, and other
++                technologies used in creating digital solutions.
++            </p>
++        </article>
++    </section>
++
++    <section>
++        <h2>Useful Links</h2>
++
++        <p>
++            <a href="https://www.uc-bcf.edu.ph/" target="_blank">
++                University of the Cordilleras
++            </a>
++        </p>
++
++        <p>
++            <a href="https://github.com/ClesterIan" target="_blank">
++                My GitHub
++            </a>
++        </p>
++
++        <p>
++            <a href="https://www.youtube.com/" target="_blank">
++                YouTube
++            </a>
++        </p>
++    </section>
++
++</main>
++
++<footer>
++    <p>&copy; 2026 Ian Clester. All Rights Reserved.</p>
++</footer>
++
++</body>
++</html>
+diff --git a/image.png b/image.png
+new file mode 100644
+index 0000000..0fc0fdb
+Binary files /dev/null and b/image.png differ
+diff --git a/skills.html b/skills.html
+new file mode 100644
+index 0000000..049eaf1
+--- /dev/null
++++ b/skills.html
+@@ -0,0 +1,87 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Skills - Ian Clester</title>
++    <link rel="stylesheet" href="styles.css">
++</head>
++
++<body>
++
++<header>
++    <h1>My Skills</h1>
++
++    <nav>
++        <a href="index.html">HOME</a>
++        <a href="about.html">ABOUT</a>
++        <a href="education.html">EDUCATION</a>
++        <a href="skills.html">SKILLS</a>
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</header>
++
++<main>
++
++    <section>
++        <h2>Technical Skills</h2>
++
++        <article class="skill-box">
++            <h3>Web Development</h3>
++            <p>
++                I have experience creating basic websites using HTML and CSS.
++            </p>
++        </article>
++
++        <article class="skill-box">
++            <h3>Graphic Design</h3>
++            <p>
++                Graphic and digital design is one of my main interests.
++                I create posters, logos, and other digital designs.
++            </p>
++        </article>
++
++        <article class="skill-box">
++            <h3>Other Skills</h3>
++
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>Canva</li>
++                <li>Adobe applications</li>
++                <li>Microsoft Word</li>
++            </ul>
++        </article>
++    </section>
++
++    <section>
++        <h2>Student-Athlete Skills</h2>
++
++        <article>
++            <p>
++                My experience in Taekwondo has also helped me develop
++                discipline, focus, teamwork, and commitment.
++            </p>
++        </article>
++    </section>
++
++    <section>
++        <h2>Sport Video</h2>
++
++        <iframe
++            width="560"
++            height="315"
++            src="https"
++            title="Performance"
++            allowfullscreen>
++        </iframe>
++    </section>
++
++</main>
++
++<footer>
++    <p>&copy; 2026 Ian Clester. All Rights Reserved.</p>
++</footer>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit fef1908df7f11457315a5af48d6237f6a7984ad9
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-09-28 01:16:13 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-09-28 01:16:13 +0000
+
+    HTML ACTS
+
+diff --git a/FinalLab.html b/FinalLab.html
+new file mode 100644
+index 0000000..bbe0861
+--- /dev/null
++++ b/FinalLab.html
+@@ -0,0 +1,57 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>My Personal Web Portfolio</title>
++  <link rel="stylesheet" href="styles.css">
++</head>
++<body>
++
++  <header>
++    <h1>My Personal Web Portfolio</h1>
++
++    <nav id="navbar">
++      <a href="index.html">Home</a>
++      <a href="about.html">About</a>
++      <a href="education.html">Education</a>
++      <a href="skills.html">Skills</a>
++      <a href="contact.html">Contact</a>
++    </nav>
++  </header>
++
++  <main>
++
++    <section id="welcome-section">
++      <img src="Ian.jpg" alt="Photo of Ian" class="profile-pic">
++
++      <h2>What's up! I'm Ian Clester</h2>
++
++      <p>
++        I'm a Web Developer and a student who enjoys creating websites
++        and learning new things about technology.
++      </p>
++    </section>
++
++    <section id="github">
++      <h2>My GitHub</h2>
++
++      <article class="github-tile">
++        <p>
++          Visit my GitHub profile to see my projects and repositories.
++        </p>
++
++        <a href="https://github.com/ClesterIan" target="_blank">
++          My GitHub Profile
++        </a>
++      </article>
++    </section>
++
++  </main>
++
++  <footer>
++    <p>&copy; 2026 Ian Clester. My Personal Web Portfolio.</p>
++  </footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/multimedia.html b/multimedia.html
+new file mode 100644
+index 0000000..64b662c
+--- /dev/null
++++ b/multimedia.html
+@@ -0,0 +1,35 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Multimedia</title>
++</head>
++<body>
++    <h1>The Multimedia Page</h1>
++
++    <h2>Image</h2>
++    <img src="image.jpg" alt="My favorite image" width="300">
++
++    <h2>Audio</h2>
++    <audio controls>
++        <source src="audio.mp3" type="audio/mpeg">
++        Your browser does not support the audio element.
++    </audio>
++
++    <h2>Video</h2>
++    <video controls width="400">
++        <source src="video.mp4" type="video/mp4">
++        Your browser does not support the video element.
++    </video>
++
++    <h2>Sport Video</h2>
++    <iframe 
++        width="560" 
++        height="315" 
++        src="https://www.youtube.com/embed/HGOBQPFzWKo"
++        title="Educational Video"
++        allowfullscreen>
++    </iframe>
++</body>
++</html>
+\ No newline at end of file
+
+commit 0ec5b4821f6e450240e946a8f853d31e29a0b6e5
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-09-25 02:03:20 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-09-25 02:03:20 +0000
+
+    cit14
+
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..2f6d903
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,62 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Formatting</title>
++</head>
++<body>
++    <body>
++
++        <h1>HTML Text Formatting</h1>
++    
++        <p>
++            <b>Bold text</b> is created using the b tag.
++        </p>
++    
++        <p>
++            <strong>Important text</strong> is created using the strong tag.
++        </p>
++    
++        <p>
++            <i>Italic text</i> is created using the i tag.
++        </p>
++    
++        <p>
++            <em>Emphasized text</em> is created using the em tag.
++        </p>
++    
++        <p>
++            <u>Underlined text</u> is created using the u tag.
++        </p>
++    
++        <p>
++            <mark>Highlighted text</mark> is created using the mark tag.
++        </p>
++    
++        <p>
++            <small>Small text</small> is created using the small tag.
++        </p>
++    
++        <p>
++            <del>Deleted text</del> is created using the del tag.
++        </p>
++    
++        <p>
++            <ins>Inserted text</ins> is created using the ins tag.
++        </p>
++    
++        <hr>
++        <p><strong>CHALLENGE</strong></p>
++        <p>
++            H<sub>2</sub>O uses the sub tag.
++        </p>
++    
++        <p>
++            X<sup>2</sup> uses the sup tag.
++        </p>
++    
++    
++    </body>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/images.html b/images.html
+new file mode 100644
+index 0000000..0ca2a1a
+--- /dev/null
++++ b/images.html
+@@ -0,0 +1,23 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>IMAGES</title>
++</head>
++<body>
++    <a href="" target="">
++        <img
++            src=".jpg" alt="My Photo"
++            width="200"
++            height="200">
++    </a>
++
++    <h2>Ian Clester E. Bringas</h2>
++
++    <p>
++       Annyeong!, I am Ian Clester Bringas, a student athlete.
++       I am currently taking BSIT Major in Web Technology in The University of the Cordilleras.
++    </p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/links.html b/links.html
+new file mode 100644
+index 0000000..fb483a3
+--- /dev/null
++++ b/links.html
+@@ -0,0 +1,51 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>LINKS</title>
++</head>
++<body>
++
++    <nav>
++        <a href="index.html">HOME</a> |
++        <a href="index.html">ABOUT</a> |
++        <a href="index.html">CONTACT</a>
++    </nav>
++
++    <hr>
++
++    <section id="home">
++        <h1>Home</h1>
++        <p>Welcome to my website!</p>
++    </section>
++
++    <hr>
++
++    <section id="about">
++        <h1>About</h1>
++        <p>information about me.</p>
++        <a href="#contact">Go to Contact Section</a>
++    </section>
++
++    <hr>
++
++    <section id="contact">
++        <h1>Contact</h1>
++        <p>Contact me.</p>
++    </section>
++
++    <hr>
++
++    <h1>External Websites</h1>
++
++    <ul>
++        <li><a href="https://www.google.com" target="_blank">Google</a></li>
++        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
++        <li><a href="https://github.com/BringasClester" target="_blank">GitHub</a></li>
++        <li><a href="https://www.uc-bcf.edu.ph/" target="_blank">School Website</a></li>
++    </ul>
++
++    <a href="#home">Back to Home</a>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/list.html b/list.html
+new file mode 100644
+index 0000000..db24742
+--- /dev/null
++++ b/list.html
+@@ -0,0 +1,48 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>LIST</title>
++</head>
++<body>
++    <h1>Lists</h1>
++    
++    <h2>Favorite Foods</h2>
++        <ul>
++            <li>Pizza</li>
++            <li>Burger</li>
++            <li>Fried Chicken</li>
++            <li>Kimbap</li>
++            <li>Pasta</li>
++        </ul>
++    
++        <h2>Top 5 Programming Languages</h2>
++        <ol>
++            <li>JavaScript</li>
++            <li>Python</li>
++            <li>Java</li>
++            <li>PHP</li>
++            <li>C#</li>
++        </ol>
++    
++        <h2>Computer Science</h2>
++        <ul>
++            <li>Programming
++                <ul>
++                    <li>Java</li>
++                    <li>Python</li>
++                    <li>PHP</li>
++                </ul>
++            </li>
++    
++            <li>Web Development
++                <ul>
++                    <li>HTML</li>
++                    <li>CSS</li>
++                    <li>JavaScript</li>
++                </ul>
++            </li>
++        </ul>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/registration.html b/registration.html
+new file mode 100644
+index 0000000..c15414f
+--- /dev/null
++++ b/registration.html
+@@ -0,0 +1,64 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Register Here</title>
++</head>
++    <body>
++        <h1>Student Registration Form</h1>
++            <form>
++                <label>Full Name:</label><br>
++                <input type="text" placeholder="Enter your full name" required>
++                <br><br>
++
++                <label>Student ID:</label><br>
++                <input type="text" placeholder="Enter your student ID" required>
++                <br><br>
++
++                <label>Email:</label><br>
++                <input type="email" placeholder="Enter your email" required>
++                <br><br>
++
++                <label>Password:</label><br>
++                <input type="password" placeholder="Enter your password" minlength="8" required>
++                <br><br>
++
++                <label>Birthday:</label><br>
++                <input type="date" required>
++                <br><br>
++
++                <label>Gender:</label><br>
++                <input type="radio" name="gender"> Male
++                <input type="radio" name="gender"> Female
++                <br><br>
++
++                <label>Program:</label><br>
++                <select required>
++                <option>Select Program</option>
++                <option>BSIT</option>
++                <option>BSCS</option>
++                <option>BSBA</option>
++                </select>
++                <br><br>
++
++                <label>Hobbies:</label><br>
++                <input type="checkbox"> Gaming
++                <input type="checkbox"> Reading
++                <input type="checkbox"> Sports
++                <input type="checkbox"> Music
++                <br><br>
++
++                <label>Address:</label><br>
++                <textarea placeholder="Enter your address" maxlength="200" required></textarea>
++                <br><br>
++
++                <label>Comments:</label><br>
++                <textarea placeholder="Enter your comments" maxlength="300"></textarea>
++                <br><br>
++
++                <button type="submit">Submit</button>
++                <button type="reset">Reset</button>
++            </form>
++    </body>
++</html> 
+\ No newline at end of file
+diff --git a/schedule.html b/schedule.html
+new file mode 100644
+index 0000000..45350e9
+--- /dev/null
++++ b/schedule.html
+@@ -0,0 +1,99 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Weekly Class Schedule</title>
++    <style>
++        table {
++            width: 100%;
++            border-collapse: collapse;
++        }
++
++        th, td {
++            border: 1px solid black;
++            padding: 10px;
++            text-align: center;
++        }
++
++        th {
++            background-color: #e6e6e6;
++        }
++    </style>
++</head>
++<body>
++
++    <h1>My Weekly Class Schedule</h1>
++
++    <table>
++        <tr>
++            <th>Day</th>
++            <th>Time</th>
++            <th>Subject</th>
++            <th>Room</th>
++            <th>Instructor</th>
++        </tr>
++
++        <tr>
++            <td rowspan="2">Monday</td>
++            <td>8:50 AM - 10:10 AM</td>
++            <td>CIT14</td>
++            <td>M307</td>
++            <td>Mr. Reyes</td>
++        </tr>
++
++        <tr>
++            <td>10:10 AM - 11:30 AM</td>
++            <td>CIT14</td>
++            <td>G301</td>
++            <td>Mr. Reyes</td>
++        </tr>
++
++        <tr>
++            <td>Tuesday</td>
++            <td>12:50 PM - 2:10 PM</td>
++            <td>CIT 6</td>
++            <td>S311</td>
++            <td>Mrs. Conception</td>
++        </tr>
++
++        <tr>
++            <td rowspan="2">Wednesday</td>
++            <td>2:10 PM - 3:30 PM</td>
++            <td>CIT17</td>
++            <td>M306</td>
++            <td>Mr.Reyes</td>
++        </tr>
++
++        <tr>
++            <td>3:30 PM - 4:50 PM</td>
++            <td>CIT17</td>
++            <td>G201</td>
++            <td>Mr. Reyes</td>
++        </tr>
++
++        <tr>
++            <td>Thursday</td>
++            <td colspan="2">7:30 AM - 8:50 PM — PATHFIT</td>
++            <td>UC GYM</td>
++            <td>Mr. Ninalga</td>
++        </tr>
++
++        <tr>
++            <td>Friday</td>
++            <td>4:50 AM - 6:10 AM</td>
++            <td>CC6</td>
++            <td>M306</td>
++            <td>Mrs. Peralta</td>
++        </tr>
++
++        <tr>
++            <td>Saturday</td>
++            <td>4:50 AM - 6:10 AM</td>
++            <td>CC17</td>
++            <td>M307</td>
++            <td>Mr. Nicolas</td>
++        </tr>
++    </table>
++</body>
++</html>
+diff --git a/semantic.html b/semantic.html
+new file mode 100644
+index 0000000..fb13bb4
+--- /dev/null
++++ b/semantic.html
+@@ -0,0 +1,98 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Semantic</title>
++</head>
++ <style>
++        body {
++            margin: 0;
++            font-family: Arial;
++            background-color: #eeeeee;
++            color: #222222;
++        }
++
++        header {
++            background-color: #222222;
++            color: white;
++            text-align: center;
++            padding: 20px;
++        }
++
++        nav {
++            background-color: #555555;
++            text-align: center;
++            padding: 15px;
++        }
++
++        nav a {
++            color: white;
++            margin: 20px;
++            text-decoration: none;
++        }
++
++        main {
++            padding: 20px;
++        }
++
++        section {
++            width: 70%;
++        }
++
++        article {
++            background-color: #cccccc;
++            padding: 20px;
++        }
++
++        aside {
++            background-color: #999999;
++            padding: 20px;
++            width: 25%;
++            margin-top: 20px;
++        }
++
++        footer {
++            background-color: #222222;
++            color: white;
++            text-align: center;
++            padding: 15px;
++        }
++    </style>
++</head>
++
++<body>
++
++    <header>
++        <h1>My Website</h1>
++        <p>Welcome to my webpage</p>
++    </header>
++
++    <nav>
++        <a href="#">Home</a>
++        <a href="#">About</a>
++        <a href="#">Contact</a>
++    </nav>
++
++    <main>
++
++        <section>
++            <h2>My Main Content</h2>
++
++            <article>
++                <h3>About Me</h3>
++                <p>
++                    Hello! My name is Ian Clester Bringas a student-athlete and this is my world!.
++                    I am currently studying in the University of the Cordilleras and taking the course 
++                    BSIT major in webtech.
++                </p>
++            </article>
++        </section>
++
++        <aside>
++            <h3>My Hobbies</h3>
++            <p>Gaming, watching K-Dramas, listening to music, and sports.</p>
++        </aside>
++    </main>
++</body>
++</html>
+\ No newline at end of file
+
+commit efb7d4a71922495e58aa8896ac6885d281a7c061
+Author:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+AuthorDate: 2026-09-18 06:53:52 +0000
+Commit:     BRINGAS, Ian Clester E. <168500304+BringasClester@users.noreply.github.com>
+CommitDate: 2026-09-18 06:53:52 +0000
+
+    personal page
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..108ad20
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,23 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>PERSONAL PAGE</title>
++</head>
++<body>
++    <h1>MY PERSONAL PAGE</h1>
++    <hr> 
++    <h2>Ian Clester Bringas</h2>
++        <p>Bachelor of Science in Information Technology - Web Technology</p> 
++    <hr>
++    <h2>About Me</h2> 
++        <p> Hello! My name is Ian Clester Bringas. I am an IT student who is interested in web development and graphic design. I am also a student-athlete and have been practicing Taekwondo for many years. </p>
++        <p> I enjoy being creative, learning new things, and improving my skills. I believe that my experiences in sports and technology help me become more disciplined, confident, and hardworking. </p> 
++    <hr>
++    <h2>My Hobbies</h2> 
++        <p> My three hobbies are playing Taekwondo, creating graphic designs, and listening to music. These activities help me stay active, creative, and relaxed. </p> 
++        <p> I hope to improve my skills in Information Technology and create useful and creative websites in the future. </p> 
++        <p> Thank you for visiting my personal page! </p>
++</body>
++</html>
+\ No newline at end of file
